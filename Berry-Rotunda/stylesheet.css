@@ -1,0 +1,9 @@
+
+@font-face {
+    font-family: 'Berry Rotunda';
+    src: local('Berry Rotunda'), local('Berry-Rotunda-Normal'),
+        url('Berry\ Rotunda.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+

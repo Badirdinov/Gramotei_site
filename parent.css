@@ -1,0 +1,157 @@
+
+body:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 116px;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    background: url("./img/kindpng_7568025.png");
+    background-repeat: no-repeat;
+    background-position: 10% 0;
+    background-size: cover;
+    z-index: -5;
+}
+
+
+.header{
+    padding: 0;
+}
+
+.container {
+    max-width: 1192px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.title {
+    text-align: center;
+}
+
+.title > h3 {
+    font-weight: 700;
+    font-size: calc((1vw + 1vh) * 2.3);
+    line-height: 62px;
+    color: #000;
+    padding-bottom: 12px;
+}
+
+.title > p {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 155%;
+    text-align: center;
+    color: #555555;
+}
+
+.parents{
+    padding-top: 40px;
+}
+
+.tables {
+    margin-bottom: 128px;
+}
+
+.tables__title {
+    margin-bottom: 42px;
+}
+
+.tables__desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 155%;
+    color: #555555;
+    padding-bottom: 32px;
+}
+
+table {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 155%;
+    margin: 0 auto;
+    width: 80%;
+    height: 220px;
+    background: #fafafa;
+    text-align: center;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-radius: 12px 12px 0 0;
+}
+
+th,
+td {
+    padding: 10px 15px;
+}
+
+.border__th {
+    border-top: #000 3px solid;
+}
+
+th {
+    background: #028984;
+    color: #fff;
+}
+
+tr {
+    background: #e8f5f3;
+}
+
+tr:nth-child(odd) {
+    background: #cef4f0;
+}
+
+.parents {
+    margin-bottom: 128px;
+}
+
+.nomber {
+    width: 120px;
+}
+
+.quarter {
+    margin-top: 85px;
+    margin-bottom: 85px;
+}
+
+.schedule__title {
+    margin-bottom: 48px;
+}
+
+.schedules {
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    margin-bottom: 128px;
+}
+
+.schedule {
+    max-width: 330px;
+}
+
+.meetings {
+    margin-bottom: 128px;
+}
+
+.uniform {
+    margin-bottom: 128px;
+}
+
+.students {
+    margin-bottom: 128px;
+}
+
+.descriptions > p {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 155%;
+    color: #555555;
+    margin-bottom: 16px;
+}
+.graduates {
+    margin-bottom: 128px;
+}
+.graduates__title {
+    margin-bottom: 48px;
+}

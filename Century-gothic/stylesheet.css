@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Century-Gothic';
+    src: local('Century Gothic ExtraBold'), local('Century-Gothic-ExtraBold'),
+        url('GOTHICB0.TTF') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'Century-Gothic';
+    src: local('Century Gothic Bold'), local('Century-Gothic-Bold'),
+        url('GOTHIC.TTF') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Century-Gothic';
+    src: local('Century-Gothic Medium'), local('Century-Gothic-Medium'),
+        url('CenturyGothic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
